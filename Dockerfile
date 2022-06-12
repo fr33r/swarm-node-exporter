@@ -1,4 +1,4 @@
-FROM prom/node-exporter:v1.3.1
+FROM quay.io/prometheus/node-exporter:v1.3.1
 LABEL com.fr33r.author="Jon Freer"
 ENV NODE_ID=none
 USER root
